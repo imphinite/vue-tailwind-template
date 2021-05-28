@@ -1,8 +1,8 @@
 # vue-tailwind-tempalte
 
-> Minimal webpack setup for Vue 3 (RC)
-> Tailwind
-> Lint & prettier
+- Minimal webpack setup for Vue 3 (RC)
+- Tailwind installed
+- Lint & prettier
 
 ### Prerequisites
 - npm | yarn
