@@ -83,10 +83,6 @@ export default {
 </script>
 
 <style scoped>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 .toggle__dot {
     top: -.25rem;
     left: -.25rem;
