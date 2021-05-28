@@ -1,9 +1,6 @@
 module.exports = {
     mode: 'jit',
-    purge: [
-        './public/**/*.html',
-        './src/**/*.{js,jsx,ts,tsx,vue}',
-    ],
+    purge: ['./public/**/*.html', './src/**/*.{js,jsx,ts,tsx,vue}'],
     theme: {
         screens: {
             sm: '640px',
@@ -26,10 +23,10 @@ module.exports = {
             body: ['Graphik', 'sans-serif'],
         },
         borderWidth: {
-            '0': '0',
+            0: '0',
             default: '1px',
-            '2': '2px',
-            '4': '4px',
+            2: '2px',
+            4: '4px',
         },
         extend: {
             colors: {
@@ -38,12 +35,12 @@ module.exports = {
                     light: '#d05ce3',
                     default: '#9c27b0',
                     dark: '#6a0080',
-                }
+                },
             },
             spacing: {
-                '96': '24rem',
-                '128': '32rem',
-            }
-        }
-    }
+                96: '24rem',
+                128: '32rem',
+            },
+        },
+    },
 }
