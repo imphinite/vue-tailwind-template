@@ -3,8 +3,8 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack --env.prod",
     "lint": "./node_modules/.bin/vue-cli-service lint",
-    "lint:fix": "./node_modules/.bin/vue-cli-service lint --fix",
-    "dev": "./node_modules/.bin/webpack-dev-server"
+    "dev": "./node_modules/.bin/webpack-dev-server",
+    "lint:fix": "./node_modules/.bin/vue-cli-service lint --fix"
   },
   "dependencies": {
     "tailwindcss": "^2.1.2",
@@ -12,8 +12,8 @@
     "vue-router": "4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-eslint": "^4.5.13",
-    "@vue/cli-service": "^4.5.13",
+    "@vue/cli-plugin-eslint": "~5.0.0-beta.1",
+    "@vue/cli-service": "~5.0.0-beta.1",
     "@vue/compiler-sfc": "^3.0.11",
     "@vue/eslint-config-prettier": "^6.0.0",
     "autoprefixer": "^10.2.6",
