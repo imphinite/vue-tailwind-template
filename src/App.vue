@@ -1,9 +1,14 @@
 <template>
     <div id="app">
+        <navigation-bar />
         <router-view></router-view>
     </div>
 </template>
 
 <script>
-export default {}
+import NavigationBar from '@/components/navigation.vue'
+
+export default {
+    components: { NavigationBar },
+}
 </script>
